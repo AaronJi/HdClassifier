@@ -1,0 +1,95 @@
+{
+  "WoS-HdLM": {
+    "file_name": "Depth2/WoS/alpaca_datasets/wos_train_data.json",
+    "formatting": "hdlm_wos",
+    "columns": {
+      "system": "system",
+      "prompt": "input",
+      "response": "assistant"
+    }
+  },
+  "WoS-HTC": {
+    "file_name": "Depth2/WoS/alpaca_datasets/wos_train_data.json",
+    "formatting": "alpaca",
+    "add_thought": true,
+    "has_subtask": true,
+    "columns": {
+      "prompt": "system",
+      "query": "input",
+      "thought": "think",
+      "subtask": "subtask",
+      "response": "assistant"
+    }
+  },
+  "WoS-HTC-Val": {
+    "file_name": "Depth2/WoS/alpaca_datasets/wos_valid_data.json",
+    "formatting": "alpaca",
+    "add_thought": true,
+    "has_subtask": true,
+    "columns": {
+      "prompt": "system",
+      "query": "input",
+      "thought": "think",
+      "subtask": "subtask",
+      "response": "assistant"
+    }
+  },
+  "WoS-HTC-Test": {
+    "file_name": "Depth2/WoS/alpaca_datasets/wos_test_data.json",
+    "formatting": "alpaca",
+    "add_thought": true,
+    "has_subtask": true,
+    "columns": {
+      "prompt": "system",
+      "query": "input",
+      "thought": "think",
+      "subtask": "subtask",
+      "response": "assistant"
+    }
+  },
+  "DBP-HTC": {
+    "file_name": "Depth3/DBpedia/alpaca_datasets/dbpedia_train_data.json",
+    "formatting": "alpaca",
+    "add_double_thought": true,
+    "has_double_task": true,
+    "columns": {
+      "prompt": "system",
+      "query": "input",
+      "first_thought": "think_1",
+      "subtask_1": "subtask_1",
+      "second_thought": "think_2",
+      "subtask_2": "subtask_2",
+      "response": "assistant"
+    }
+  },
+  "DBP-HTC-Val": {
+    "file_name": "Depth3/DBpedia/alpaca_datasets/dbpedia_valid_data.json",
+    "formatting": "alpaca",
+    "add_double_thought": true,
+    "has_double_task": true,
+    "columns": {
+      "prompt": "system",
+      "query": "input",
+      "first_thought": "think_1",
+      "subtask_1": "subtask_1",
+      "second_thought": "think_2",
+      "subtask_2": "subtask_2",
+      "response": "assistant"
+    }
+  },
+  "DBP-HTC-Test": {
+    "file_name": "Depth3/DBpedia/alpaca_datasets/dbpedia_test_data.json",
+    "formatting": "alpaca",
+    "add_double_thought": true,
+    "has_double_task": true,
+    "columns": {
+      "prompt": "system",
+      "query": "input",
+      "first_thought": "think_1",
+      "subtask_1": "subtask_1",
+      "second_thought": "think_2",
+      "subtask_2": "subtask_2",
+      "response": "assistant"
+    }
+  }
+}

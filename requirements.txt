@@ -1,0 +1,15 @@
+# Install matching CUDA builds of PyTorch, torchvision, and torchaudio first.
+torch==2.11.0
+torchvision==0.26.0
+torchaudio==2.11.0
+
+# WoS training and inference
+transformers==5.6.0
+datasets==4.0.0
+accelerate==1.11.0
+peft==0.18.1
+trl==0.24.0
+omegaconf>=2.3,<2.4
+
+# Joint-path F1 example in the README
+scikit-learn>=1.2
